@@ -4,15 +4,20 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SampleCardComponent } from './sample-card/sample-card.component';
 
+//Prime NG
+import {ButtonModule} from 'primeng/button';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SampleCardComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
